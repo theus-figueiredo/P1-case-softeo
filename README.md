@@ -4,7 +4,7 @@ Descrição:
 
 Case da softeo baseado em desenvolver uma ferramenta de contabilidade para uma cínica de dentistas com o objetivo de facilitar a verificação do faturamento da clínica dentro de um determinado período de tempo.
 
-🛠️ Como abrir e rodar o projeto:
+:zap: Como abrir e rodar o projeto:
 
 1- Na pasta raiz do projeto navegar até o diretório backend<br/>
 2- executar o comando "npm start" <br/>
@@ -27,3 +27,14 @@ Ao definir as datas inicil e final para busca de recebimentos a aplicação reto
 
 Ao abrir o menu do header haverão os links para navegar entre as páginas:
 ![image](https://user-images.githubusercontent.com/81989436/189764856-ad2dcb12-53da-4a50-80e7-584c2c92e86d.png)
+
+Na página de Pacientes é possível ver mais informações sobre os pacientes bem como registrar um novo pciente:
+![image](https://user-images.githubusercontent.com/81989436/189765990-bcaf927d-5a93-431b-a353-8701d0f05770.png)
+
+🛠️ Técnologias usadas:
+ Projeto feito todo com linguagem de programação JavaScript.
+ <br />
+ 
+ Backend feito em NodeJs com express<br />
+ Frontend feito em ReactJs<br />
+ Estilização feita com bootstrap 5 para garantir a responsividade em dispositivos móveis.
