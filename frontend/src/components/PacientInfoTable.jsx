@@ -4,7 +4,7 @@ import Context from '../context/Context';
 export default function PacientsInfoTable() {
 
   const { pacientInfo } = useContext(Context);
-  const [pacientDataFields] = useState(['Nome', 'Contato']);
+  const [pacientDataFields] = useState(['Nome', 'Email', 'Telefone']);
 
   return (
     <div classaName="flex-container" style={{"margin": "5%"}}>
@@ -18,9 +18,8 @@ export default function PacientsInfoTable() {
         <tbody>
           {pacientInfo.map((pacient, i) => <tr key={i}>
             <td>{pacient.name}</td>
-            <td>Email: {pacient.email} <br/>
-            Telefone: {pacient.phoneNumber}
-            </td>
+            <td>{pacient.email}</td>
+            <td>{pacient.phoneNumber}</td>
           </tr>)}
         </tbody>
       </table>

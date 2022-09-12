@@ -52,7 +52,7 @@ export default function PacientRegisterForm() {
   useEffect(() => { verifyRegister(); }, [newPacientInfo, verifyRegister]);
 
   return(
-    <div className='flex-container' style={{"margin": "3%"}}>
+    <div className='flex-container' style={{"marginLeft": "10%", "marginRight": "10%", "marginTop": "3%"}}>
       <form>
         {showSuccess && <SuccessMsg message={successMsg}/>}
         {showError && <ErrorMsg message={ errorMsg } />}

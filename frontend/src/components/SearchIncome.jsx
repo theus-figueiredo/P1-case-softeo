@@ -8,7 +8,7 @@ export default function SearchIncomeForm() {
   const [startDate, setStartDate] = useState('');
   const [endDate, setEndDate] = useState('');
   const [disabled, setDisabled] = useState(true);
-  const { setIncomeInfo, setTotalIncome } = useContext(Context);
+  const { setIncomeInfo, setTotalIncome, setStartDateContext, setEndDateContext } = useContext(Context);
 
   const buttonDisableCheck = useCallback(() => {
     const ten = 10;
@@ -35,7 +35,8 @@ export default function SearchIncomeForm() {
     const { data } = await axios.get(`http://localhost:3001/payments/income?startDate=${startDate}&endDate=${endDate}`);
     setIncomeInfo(data);
     setTotalIncome(data.total);
-    console.log(data);
+    setStartDateContext(startDate);
+    setEndDateContext(endDate);
   };
 
   return (

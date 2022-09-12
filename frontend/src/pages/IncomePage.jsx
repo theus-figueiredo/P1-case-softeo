@@ -10,7 +10,7 @@ export default function IncomePage() {
 
   const {incomeInfo, totalIncome} = useContext(Context);
   const [fetching, setFetching] = useState(true);
-  const { setPacientInfo, pacientInfo } = useContext(Context)
+  const { setPacientInfo, pacientInfo, startDateContext, endDateContext } = useContext(Context)
 
   const fetchApi = async () => {
     const pacientInfo = await axios.get('http://localhost:3001/pacients');
