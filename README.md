@@ -23,8 +23,9 @@ Case da softeo baseado em desenvolver uma ferramenta de contabilidade para uma c
 Funcionamento:
 
 A aplicação é dividida em duas páginas que realizam as tarefas de:
-- listar e registrar os pacientes da clínica <br />
-- listar recebimentos dentro de um período de tempo determinado pelo usuário e registrar novos recebimentos.
+- listar e registrar os pacientes da clínica <br />,
+- listar e registrar recebimentos parcelados ou a vista <br />,
+- listar faturamento dentro de um determinado perído inserido pelo usuário <br />.
 
 Ao definir as datas inicil e final para busca de recebimentos a aplicação retorna o valor total faturado naquele perído e uma tabela com detalhes de cada recebimento:
 ![image](https://user-images.githubusercontent.com/81989436/189764126-1aa78b0e-9056-4f40-b99e-04ece67dd01f.png)
