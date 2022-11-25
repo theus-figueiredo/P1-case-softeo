@@ -7,7 +7,7 @@
  Backend feito em NodeJs com express<br />
  Frontend feito em ReactJs<br />
  Estilização feita com bootstrap 5 para garantir a responsividade em dispositivos móveis.<br />
- Banco de dados usado: MySQL, usada ORM sequelize no projeto
+ Banco de dados usado: MySQL com sequelize ORM no projeto
 
 Descrição:
 
