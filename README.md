@@ -1,5 +1,14 @@
 <h1 align="center"> Projeto contabilidade clinica Erica || Case Softeo </h1>
 
+🛠️ Técnologias usadas:
+ Projeto feito todo com linguagem de programação JavaScript.
+ <br />
+ 
+ Backend feito em NodeJs com express<br />
+ Frontend feito em ReactJs<br />
+ Estilização feita com bootstrap 5 para garantir a responsividade em dispositivos móveis.<br />
+ Banco de dados usado: MySQL, usada ORM sequelize no projeto
+
 Descrição:
 
 Case da softeo baseado em desenvolver uma ferramenta de contabilidade para uma cínica de dentistas com o objetivo de facilitar a verificação do faturamento da clínica dentro de um determinado período de tempo.
@@ -30,11 +39,3 @@ Ao abrir o menu do header haverão os links para navegar entre as páginas:
 
 Na página de Pacientes é possível ver mais informações sobre os pacientes bem como registrar um novo pciente:
 ![image](https://user-images.githubusercontent.com/81989436/189765990-bcaf927d-5a93-431b-a353-8701d0f05770.png)
-
-🛠️ Técnologias usadas:
- Projeto feito todo com linguagem de programação JavaScript.
- <br />
- 
- Backend feito em NodeJs com express<br />
- Frontend feito em ReactJs<br />
- Estilização feita com bootstrap 5 para garantir a responsividade em dispositivos móveis.
